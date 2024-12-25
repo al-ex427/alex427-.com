@@ -3,21 +3,47 @@
 <head>
 <title>Welcome to nginx!</title>
 <style>
-html { color-scheme: light dark; }
-body { width: 35em; margin: 0 auto;
-font-family: Tahoma, Verdana, Arial, sans-serif; }
+body {
+    margin: 0 auto;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    background-color: rgb(15, 15, 15);
+}
+.top {
+    background-color: rgb(24, 24, 24);
+    width: 97.5%;
+    height: 48px;
+    position: relative;
+    top: 10px;
+    margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+
+}
+
+.menuButton {
+    transition: 200ms;
+    width: 50px;
+    height: 100%;
+    background-color: transparent;
+    border: 0px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.menuButton:hover {
+    transition: 200ms;
+    background-color: rgb(48, 48, 48);
+}
 </style>
+<script src="https://kit.fontawesome.com/3b7a3ad1b6.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<h1>Welcome to nginx!</h1>
-<p>If you see this page, the nginx web server is successfully installed and
-working. Further configuration is required.</p>
-
-<p>For online documentation and support please refer to
-<a href="http://nginx.org/">nginx.org</a>.<br/>
-Commercial support is available at
-<a href="http://nginx.com/">nginx.com</a>.</p>
-
-<p><em>Thank you for using nginx.</em></p>
+    <div class="top">
+       <button class="menuButton">
+            <i class="fa-sharp fa-solid fa-bars" style="font-size: 28px; color: rgb(255, 255, 255)"></i>
+       
+        </button>
+    
+    </div>
+    
 </body>
 </html>
