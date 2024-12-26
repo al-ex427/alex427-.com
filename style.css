@@ -1,0 +1,54 @@
+body {
+    margin: 0 auto;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    background-color: rgb(15, 15, 15);
+}
+.top {
+    transition: 250ms;
+    background-color: rgb(24, 24, 24);
+    width: 97.5%;
+    height: 48px;
+    position: relative;
+    top: 10px;
+    margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+
+}
+
+.menuButton {
+    transition: 200ms;
+    width: 50px;
+    height: 100%;
+    background-color: transparent;
+    border: 0px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.menuButton:hover {
+    transition: 200ms;
+    background-color: rgb(48, 48, 48);
+}
+
+.fa-sharp.fa-solid.fa-bars {
+    transition: 250ms;
+    font-size: 28px; 
+    color: rgb(255, 255, 255);
+}
+
+
+@media (max-width: 480px) {
+    .top {
+        transition: 250ms;
+       height:64px;
+    }
+    .menuButton {
+        transition: 200ms;
+        width: 64px;
+    }
+    .fa-sharp.fa-solid.fa-bars  {
+        transform: 250ms;
+        font-size: 40px;
+        color: rgb(255, 255, 255)
+    }
+}
