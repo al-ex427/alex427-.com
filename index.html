@@ -3,12 +3,14 @@
 <head>
 <title>Welcome to nginx!</title>
 <style>
+
 body {
     margin: 0 auto;
     font-family: Tahoma, Verdana, Arial, sans-serif;
     background-color: rgb(15, 15, 15);
 }
 .top {
+    transition: 250ms;
     background-color: rgb(24, 24, 24);
     width: 97.5%;
     height: 48px;
@@ -32,6 +34,14 @@ body {
 .menuButton:hover {
     transition: 200ms;
     background-color: rgb(48, 48, 48);
+}
+
+
+@media (max-width: 942px) {
+    .top {
+        transition: 250ms;
+       width: 50%;
+    }
 }
 </style>
 <script src="https://kit.fontawesome.com/3b7a3ad1b6.js" crossorigin="anonymous"></script>
